@@ -1,0 +1,84 @@
+*{box-sizing:border-box;}
+body{
+    background-color:black;
+    margin:0px;
+    font-family: verdana;
+    text-align: center;
+}
+header,nav,section,aside,footer{
+    border: 1px solid black;
+}
+header,nav{
+    position: fixed;
+}
+header{
+    height: 75px;
+    width:100%;
+    background-color: black;
+    color: red;
+    z-index: 9999;
+    margin-top: -20px
+}
+nav{
+    width:100%;
+    float: left;
+    background-color: red;
+    height:40px;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 30px;
+    margin-top: 55px
+}
+aside{
+    width: 50%;
+    float: right;
+    background-color: red;
+    color:black;
+    height: 400px;
+}
+aside1{
+    width: 50%;
+    float: left;
+    background-color: hotpink;
+    color:red;
+    height: 400px;
+}
+section{
+    width: 100%;
+    float: right;
+    background-image:url(martial-arts.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    background-color: black;
+    height: 950px;
+    color:red;
+    padding-top: 95px;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+    display:inline-block;
+}
+a:link{
+    color: lightgrey;
+    transition: transform 0.2s;
+}
+a:hover{
+    height: 40px;
+    background-color:black;
+    color:white;
+    background-size:cover;
+    transform: skewX(-20deg);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+a:active{
+    box-shadow: 5px 5px 10px black;
+}
+#logo{
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
