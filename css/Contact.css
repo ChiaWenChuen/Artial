@@ -1,0 +1,206 @@
+*{box-sizing:border-box;}
+body{
+    background-color:black;
+    margin:0px;
+    font-family: verdana;
+    text-align: center;
+}
+header,nav,section,aside,footer{
+    border: 1px solid black;
+}
+header,nav{
+    position: fixed;
+}
+header{
+    height: 60px;
+    width:100%;
+    background-color: black;
+    z-index: 9999;
+    margin-top: 0px;
+}
+nav{
+    width:100%;
+    float: left;
+    background-color: red;
+    height:40px;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 30px;
+    margin-top: 60px;
+    font-family: "Lucida Sans Typewriter";
+}
+#navbar a{
+    color: black;
+    text-decoration-line: none;
+    display:inline-block;
+    padding:0 20px;
+}
+#navbar a:link{
+    color: lightgrey;
+    transition: transform 0.2s;
+}
+#navbar a:hover{
+    height: 40px;
+    background-color:black;
+    color:white;
+    background-size:cover;
+    transform: skewX(-20deg);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#navbar a:active{
+    box-shadow: 5px 5px 10px black;
+}
+#logo{
+    width: 200px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+section{
+    width: 100%;
+    float: right;
+    height: auto;
+    margin-top:100px;
+}
+#hpics{
+    width:50%;
+    float: right;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.h1word{
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    margin: 0;
+}
+
+.h1header{
+   font-size: 20px; 
+    padding: none;
+    color: red;
+    width: 15px;
+    margin: 0;
+}
+
+.history{
+    font-size: 100px;
+    padding-top: 100px;
+    color: white;
+    font-family: "Karate medium";
+}
+.learnmore{
+    text-align: center;
+    padding-top: 180px;
+    color:dimgrey;
+    font-family:"Lucida Sans Typewriter";
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.arrow {
+    border-right: 3px solid; 
+    border-bottom: 3px solid;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    color:dimgrey;
+    margin-left: auto;
+    margin-right: auto;
+}
+#protectcontainer{
+    padding-top:20px;
+    display: flex;
+    flex-direction: row;
+    font-family: "karate medium";
+}
+
+#yourselfcontainer{
+    padding-left: 65px;
+    display: flex;
+    flex-direction: row;
+    font-family: "karate medium";
+}
+
+#historyheader{
+    color:red;
+    font-size: 100px;
+    font-family: "karate medium";
+    text-align: center;
+}
+
+#historyp1{
+    width:100%;
+}
+.p1{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: right;
+    padding-top: 30px;
+    font-size:30px;
+}
+#picp1{
+    width: 50%;
+}
+#historyp2{
+    width:100%;
+    padding-top: 100px;
+}
+.p2{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: left;
+    padding-top: 30px;
+    font-size:30px;
+}
+#picp2{
+    width: 30%;
+    margin-left: 200px;
+}
+#historyp3{
+    width:100%;
+    padding-top: 100px;
+}
+.p3{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: right;
+    padding-top: 150px;
+    font-size: 30px;
+}
+#picp3{
+    width: 50%;
+}
+#historyp4{
+    width:100%;
+    padding-top: 100px;
+
+}
+.p4{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: left;
+    padding-top: 150px;
+    font-size:30px;
+}
+#picp4{
+    width: 30%;
+    margin-left: 200px;
+}
+
+footer{
+    margin: auto;
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width:800px){
+    section{
+        width:80%;
+    }
+}
