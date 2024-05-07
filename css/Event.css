@@ -85,9 +85,7 @@ section{
     font-size: 25px;
     text-decoration-line:underline;
 }
-.linke1 hover{
-    color: white;
-}
+
 .arrow {
     border-right: 3px solid; 
     border-bottom: 3px solid;
