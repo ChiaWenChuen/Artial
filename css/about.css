@@ -1,0 +1,188 @@
+*{box-sizing:border-box;}
+body{
+    background-color:black;
+    margin:0px;
+    font-family: verdana;
+    text-align: center;
+}
+header,nav,section,aside,footer{
+    border: 1px solid black;
+}
+header,nav{
+    position: fixed;
+}
+header{
+    height: 60px;
+    width:100%;
+    background-color: black;
+    margin-top: 0px;
+    z-index: 2;
+}
+nav{
+    width:100%;
+    float: left;
+    background-color: red;
+    height:40px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 60px;
+    font-family: "Lucida Sans Typewriter";
+    align-content: center;
+    z-index: 1;
+}
+#navbar a{
+    color: black;
+    text-decoration-line: none;
+    display:inline-block;
+    padding:0 20px;
+}
+#navbar a:link{
+    color: black;
+    transition: transform 0.2s;
+}
+#navbar a:hover{
+    height: 40px;
+    background-color:black;
+    color:white;
+    background-size:cover;
+    transform: skewX(-20deg);
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+}
+#navbar a:active{
+    box-shadow: 5px 5px 10px black;
+}
+#logo{
+    width: 200px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+section{
+    width: 100%;
+    float: right;
+    background-color: black;
+    height: auto;
+    margin-top:100px;
+    text-align: left;
+    padding-left: 50px;
+}
+#hpics{
+    width:50%;
+    float: right;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+.h1word{
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    margin: 0;
+}
+
+.h1header{
+   font-size: 20px; 
+    padding: none;
+    color: red;
+    width: 15px;
+    margin: 0;
+}
+
+#historyword{
+    width: 700px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.learnmore{
+    text-align: center;
+    color:dimgrey;
+    font-family:"Lucida Sans Typewriter";
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.arrow {
+    border-right: 3px solid; 
+    border-bottom: 3px solid;
+    height: 30px;
+    width: 30px;
+    transform: rotate(45deg);
+    color:dimgrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#historyp1{
+    width:100%;
+}
+.p1{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: right;
+    padding-top: 100px;
+    font-size:20px;
+}
+#picp1{
+    width: 50%;
+}
+#historyp2{
+    width:100%;
+    padding-top: 100px;
+}
+.p2{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: left;
+    padding-top: 80px;
+    font-size:20px;
+}
+#picp2{
+    width: 30%;
+    margin-left: 200px;
+}
+#historyp3{
+    width:100%;
+    padding-top: 100px;
+}
+.p3{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: right;
+    padding-top: 150px;
+    font-size: 20px;
+}
+#picp3{
+    width: 50%;
+}
+#historyp4{
+    width:100%;
+    padding-top: 100px;
+
+}
+.p4{
+    color: grey;
+    font-family: "Lucida Sans Typewriter";
+    width:50%;
+    float: left;
+    padding-top: 80px;
+    padding-bottom: 80PX;
+    font-size:20px;
+}
+#picp4{
+    width: 40%;
+    margin-left: 50px;
+}
+
+footer{
+    margin: auto;
+    width:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
